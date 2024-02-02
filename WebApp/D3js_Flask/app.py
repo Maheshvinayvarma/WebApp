@@ -6,9 +6,7 @@ import glob
 import pydicom
 app = Flask(__name__)
 
-@app.route("/")
-def main():
-    return rendertemplate("about.html")
+
 
 @app.route("/")
 def main():
